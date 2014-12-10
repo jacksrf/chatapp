@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'ws' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json chatapp@1.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'ws', null ]
+7 verbose cache add name=undefined spec="ws" args=["ws",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'ws',
+8 verbose parsed url   path: 'ws',
+8 verbose parsed url   href: 'ws' }
+9 silly lockFile 1457b75d-ws ws
+10 verbose lock ws /Users/rolanjackson/.npm/1457b75d-ws.lock
+11 silly lockFile 1457b75d-ws ws
+12 silly lockFile 1457b75d-ws ws
+13 verbose addNamed [ 'ws', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile e88fe629-ws ws@
+16 verbose lock ws@ /Users/rolanjackson/.npm/e88fe629-ws.lock
+17 silly addNameRange { name: 'ws', range: '*', hasData: false }
+18 verbose request where is /ws
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 4f0863381dad44fa
+21 verbose url raw /ws
+22 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+23 verbose url resolved https://registry.npmjs.org/ws
+24 verbose request where is https://registry.npmjs.org/ws
+25 info trying registry request attempt 1 at 20:37:51
+26 verbose etag "B6R4321PW0NGA16LLRY7T54NS"
+27 http GET https://registry.npmjs.org/ws
+28 http 200 https://registry.npmjs.org/ws
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Wed, 10 Dec 2014 01:37:51 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"EQRO291XPS6MDG7OHUTJESF9T"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '64484',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '46',
+29 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '2',
+29 silly registry.get     'x-timer': 'S1418175471.600403,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'ws', range: '*', hasData: true }
+31 silly addNameRange versions [ 'ws',
+31 silly addNameRange   [ '0.2.6',
+31 silly addNameRange     '0.2.8',
+31 silly addNameRange     '0.2.9',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.3.2',
+31 silly addNameRange     '0.3.3',
+31 silly addNameRange     '0.3.4',
+31 silly addNameRange     '0.3.4-2',
+31 silly addNameRange     '0.3.5',
+31 silly addNameRange     '0.3.5-2',
+31 silly addNameRange     '0.3.5-3',
+31 silly addNameRange     '0.3.5-4',
+31 silly addNameRange     '0.3.6',
+31 silly addNameRange     '0.3.7',
+31 silly addNameRange     '0.3.8',
+31 silly addNameRange     '0.3.9',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.4.1',
+31 silly addNameRange     '0.4.2',
+31 silly addNameRange     '0.4.3',
+31 silly addNameRange     '0.4.5',
+31 silly addNameRange     '0.4.6',
+31 silly addNameRange     '0.4.7',
+31 silly addNameRange     '0.4.8',
+31 silly addNameRange     '0.4.9',
+31 silly addNameRange     '0.4.10',
+31 silly addNameRange     '0.4.11',
+31 silly addNameRange     '0.4.12',
+31 silly addNameRange     '0.4.13',
+31 silly addNameRange     '0.4.14',
+31 silly addNameRange     '0.4.15',
+31 silly addNameRange     '0.4.16',
+31 silly addNameRange     '0.4.17',
+31 silly addNameRange     '0.4.18',
+31 silly addNameRange     '0.4.19',
+31 silly addNameRange     '0.4.20',
+31 silly addNameRange     '0.4.21',
+31 silly addNameRange     '0.4.22',
+31 silly addNameRange     '0.4.23',
+31 silly addNameRange     '0.4.24',
+31 silly addNameRange     '0.4.25',
+31 silly addNameRange     '0.4.27',
+31 silly addNameRange     '0.4.28',
+31 silly addNameRange     '0.4.29',
+31 silly addNameRange     '0.4.30',
+31 silly addNameRange     '0.4.31',
+31 silly addNameRange     '0.4.32',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.6.0',
+31 silly addNameRange     '0.6.1',
+31 silly addNameRange     '0.6.2',
+31 silly addNameRange     '0.6.3' ] ]
+32 verbose addNamed [ 'ws', '0.6.3' ]
+33 verbose addNamed [ '0.6.3', '0.6.3' ]
+34 silly lockFile 25d9c9c1-ws-0-6-3 ws@0.6.3
+35 verbose lock ws@0.6.3 /Users/rolanjackson/.npm/25d9c9c1-ws-0-6-3.lock
+36 silly lockFile 23e8ceb7-gistry-npmjs-org-ws-ws-0-6-3-tgz https://registry.npmjs.org/ws/-/ws-0.6.3.tgz
+37 verbose lock https://registry.npmjs.org/ws/-/ws-0.6.3.tgz /Users/rolanjackson/.npm/23e8ceb7-gistry-npmjs-org-ws-ws-0-6-3-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/ws/-/ws-0.6.3.tgz',
+38 verbose addRemoteTarball   '777949e228ad868adb73709899c81079315d904c' ]
+39 info retry fetch attempt 1 at 20:37:51
+40 verbose fetch to= /var/folders/0w/dk5jrmt95gn42ssg6kcgmc7m0000gn/T/npm-22932-85LsuoJC/registry.npmjs.org/ws/-/ws-0.6.3.tgz
+41 http GET https://registry.npmjs.org/ws/-/ws-0.6.3.tgz
+42 http 200 https://registry.npmjs.org/ws/-/ws-0.6.3.tgz
+43 silly lockFile 23e8ceb7-gistry-npmjs-org-ws-ws-0-6-3-tgz https://registry.npmjs.org/ws/-/ws-0.6.3.tgz
+44 silly lockFile 23e8ceb7-gistry-npmjs-org-ws-ws-0-6-3-tgz https://registry.npmjs.org/ws/-/ws-0.6.3.tgz
+45 silly lockFile 25d9c9c1-ws-0-6-3 ws@0.6.3
+46 silly lockFile 25d9c9c1-ws-0-6-3 ws@0.6.3
+47 silly lockFile e88fe629-ws ws@
+48 silly lockFile e88fe629-ws ws@
+49 error Error: EACCES, mkdir '/Users/rolanjackson/.npm/ws/0.6.3'
+49 error  { [Error: EACCES, mkdir '/Users/rolanjackson/.npm/ws/0.6.3']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/Users/rolanjackson/.npm/ws/0.6.3',
+49 error   parent: 'chatapp' }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.1.0
+52 error command "node" "/usr/local/bin/npm" "install" "--save" "ws"
+53 error cwd /Users/rolanjackson/GA/WDI/chatapp
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /Users/rolanjackson/.npm/ws/0.6.3
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/Users/rolanjackson/.npm/ws/0.6.3'
+60 verbose exit [ 3, true ]

@@ -1,0 +1,29 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chatapp for class",
+  "main": "main.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacksrf/chatapp.git"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "node",
+    "websockets"
+  ],
+  "author": "trey jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksrf/chatapp/issues"
+  },
+  "homepage": "https://github.com/jacksrf/chatapp",
+  "dependencies": {
+    "node-notifier": "^4.0.3",
+    "ws": "^0.6.3"
+  }
+}
